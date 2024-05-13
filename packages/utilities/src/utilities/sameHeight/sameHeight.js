@@ -31,7 +31,7 @@ function sameHeight(elemCollection, minSize = false) {
   let targetWidth = minSize
     ? parseFloat(breakpoints[minSize].width) * baseFontSize
     : 0;
-  if (window.innerWidth > targetWidth) {
+  if (window.innerWidth >= targetWidth) {
     let targetHeight = 0;
     elemArr.forEach((elem) => {
       elem.style.height = 'auto';
