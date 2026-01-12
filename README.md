@@ -48,8 +48,6 @@ If you are building pages for IBM.com,
 
 - `@carbon/ibmdotcom-web-components`:
   https://www.ibm.com/standards/carbon/web-components
-- `@carbon/ibmdotcom-web-components` - React Wrappers:
-  https://www.ibm.com/standards/carbon/web-components/react
 
 ## Documentation
 
