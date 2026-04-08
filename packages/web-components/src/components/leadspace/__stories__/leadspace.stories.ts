@@ -192,8 +192,7 @@ export const SuperWithVideo = (args) => {
           video-id="0_ibuqxqbe"
           auto-play
           muted
-          playing-mode="inline"
-          intersection-mode></c4d-video-player-container-v7>
+          playing-mode="background"></c4d-video-player-container-v7>
       </c4d-background-media>
     </c4d-leadspace>
   `;
@@ -340,8 +339,7 @@ export const TallWithVideo = (args) => {
           video-id="0_ibuqxqbe"
           auto-play
           muted
-          playing-mode="inline"
-          intersection-mode></c4d-video-player-container-v7>
+          playing-mode="background"></c4d-video-player-container-v7>
       </c4d-background-media>
     </c4d-leadspace>
   `;
@@ -488,8 +486,7 @@ export const MediumWithVideo = (args) => {
           video-id="0_ibuqxqbe"
           auto-play
           muted
-          playing-mode="inline"
-          intersection-mode></c4d-video-player-container-v7>
+          playing-mode="background"></c4d-video-player-container-v7>
       </c4d-background-media>
     </c4d-leadspace>
   `;
@@ -646,8 +643,7 @@ export const ShortWithVideo = (args) => {
           video-id="0_ibuqxqbe"
           auto-play
           muted
-          playing-mode="inline"
-          intersection-mode></c4d-video-player-container-v7>
+          playing-mode="background"></c4d-video-player-container-v7>
       </c4d-background-media>
     </c4d-leadspace>
   `;
@@ -768,8 +764,7 @@ export const CenteredWithVideo = (args) => {
           video-id="0_ibuqxqbe"
           auto-play
           muted
-          playing-mode="inline"
-          intersection-mode></c4d-video-player-container-v7>
+          playing-mode="background"></c4d-video-player-container-v7>
       </c4d-background-media>
     </c4d-leadspace>
   `;
