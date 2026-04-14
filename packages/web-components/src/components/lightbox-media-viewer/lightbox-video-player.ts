@@ -46,6 +46,10 @@ class C4DLightboxVideoPlayer extends C4DLightboxMediaViewerBody {
     `;
   }
 
+  _renderCTAs() {
+    return html`<slot name="cta"></slot>`;
+  }
+
   // eslint-disable-next-line class-methods-use-this
   _renderMedia() {
     return html`
