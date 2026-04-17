@@ -39,7 +39,7 @@ const videos = {
 
 export const Default = (args) => {
   const { open, disableClose, onBeforeClose, onClose } = args?.Modal ?? {};
-  const { alt, defaultSrc, description, title, hideCaption, videoId, } =
+  const { alt, defaultSrc, description, title, hideCaption, videoId } =
     args?.LightboxMedia ?? {};
   const handleBeforeClose = (event: CustomEvent) => {
     onBeforeClose?.(event);
@@ -119,7 +119,7 @@ Default.story = {
 
 export const WithCTA = (args) => {
   const { open, disableClose, onBeforeClose, onClose } = args?.Modal ?? {};
-  const { alt, defaultSrc, description, title, hideCaption, videoId, } =
+  const { alt, defaultSrc, description, title, hideCaption, videoId } =
     args?.LightboxMedia ?? {};
   const handleBeforeClose = (event: CustomEvent) => {
     onBeforeClose?.(event);
@@ -201,7 +201,6 @@ WithCTA.story = {
     },
   },
 };
-
 
 export const WithCarousel = (args) => {
   const { open, disableClose, onBeforeClose, onClose } = args?.Modal ?? {};
