@@ -1,6 +1,5 @@
 name: Release
 
-## on every PR merge into main, lerna will publish a minor version for packages that have been modified
 on:
   workflow_dispatch:
 
@@ -10,8 +9,6 @@ concurrency:
 
 jobs:
   release:
-    # Only run if the PR was merged (not just closed)
-    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
       id-token: write
