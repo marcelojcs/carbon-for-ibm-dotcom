@@ -24,4 +24,4 @@ jobs:
       - name: Create the release branch
         run: git checkout -b release/v${{ github.event.inputs.version-number }}
       - name: Push the Relese branch
-        run: git push --set-upstream origin release/v${{ github.event.inpust.version-number }}
+        run: git push --set-upstream origin release/v${{ github.event.inputs.version-number }}
