@@ -22,6 +22,6 @@ jobs:
           git config --global user.email "digdes@us.ibm.com"
           git config --global user.name "ibmdotcom-bot"
       - name: Create the release branch
-        run: git checkout -b release/v${{ github.events.inputs.version-number }}
+        run: git checkout -b release/v${{ github.event.inputs.version-number }}
       - name: Push the Relese branch
-        run: git push --set-upstream origin release/v${{ github.events.inputs.version-number }}
+        run: git push --set-upstream origin release/v${{ github.events.input.version-number }}

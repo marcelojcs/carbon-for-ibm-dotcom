@@ -15,7 +15,7 @@ on:
       dry-run:
         required: true
         default: true
-        description: "runs whithout the --yes flag meaning nothing will be published"
+        description: "DRY RUN: runs whithout the --yes flag. Meaning nothing will be published"
         type: boolean
 
 
@@ -51,4 +51,4 @@ jobs:
           echo "//registry.npmjs.org/:_authToken=${{ secrets.CARBON_BOT_NPM_TOKEN }}" >> .npmrc
       - name: Publish minor release of packages
         run: |
-          ./node_modules/.bin/lerna publish ${{ github.event.inputs.environment }} --conventional-graduate --no-private --force-publish ${{ github.event.imputs.dry-run && '--yes' || '' }}
+          ./node_modules/.bin/lerna publish ${{ github.event.inputs.environment }} --conventional-graduate --no-private --force-publish ${{ github.event.inputs.dry-run && '' || '--yes' }}
