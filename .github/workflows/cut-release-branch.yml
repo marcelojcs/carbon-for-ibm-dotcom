@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v6
         with:
           fetch-depth: '0'
-      - name: Cofig github user
+      - name: Config github user
         run: |
           git config --global user.email "digdes@us.ibm.com"
           git config --global user.name "ibmdotcom-bot"
