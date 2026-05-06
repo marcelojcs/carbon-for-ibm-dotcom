@@ -3,7 +3,7 @@ name: Publish to CDN
 on:
   workflow_dispatch:
     inputs:
-      relase-tag:
+      release-tag:
         required: true
         description: 'Release tag: i.e (2.3.0)'
         type: string
@@ -41,4 +41,4 @@ jobs:
           AWS_REGION: ${{ secrets.COS_REGION }}
           AWS_S3_ENDPOINT: https://${{ secrets.COS_ENDPOINT }}
           SOURCE_DIR: 'packages/web-components/dist'
-          DEST_DIR: 'common/carbon-for-ibm-dotcom/version/v${{ github.event.inputs.relase-tag }}'
+          DEST_DIR: 'common/carbon-for-ibm-dotcom/version/v${{ github.event.inputs.release-tag }}'
