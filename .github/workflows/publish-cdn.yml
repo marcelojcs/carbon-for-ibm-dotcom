@@ -8,7 +8,6 @@ on:
         description: 'Relase tag: i.e (2.3.0)'
         type: string
         default: '2.x.x'
-
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -36,7 +35,7 @@ jobs:
         with:
           args: --acl public-read --follow-symlinks
         env:
-          AWS_S3_BUCKET: ${{ COS_BUCKET_COMMON }}
+          AWS_S3_BUCKET: ${{ secrets.COS_BUCKET_COMMON }}
           AWS_ACCESS_KEY_ID: ${{ secrets.COS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.COS_SECRET_ACCESS_KEY }}
           AWS_REGION: ${{ secrets.COS_REGION }}
