@@ -8,7 +8,7 @@ on:
         description: 'Relase tag: i.e (2.3.0)'
         type: string
         default: '2.x.x'
-      
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -38,14 +38,10 @@ jobs:
         with:
           args: --acl public-read --follow-symlinks
         env:
-          AWS_S3_BUCKET: ${{ secrets.COS_BUCKET_COMMON }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.COS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.COS_SECRET_ACCESS_KEY }}
-          AWS_REGION: ${{ secrets.COS_REGION }}
-          AWS_S3_ENDPOINT: https://${{ secrets.COS_ENDPOINT }}
+          AWS_S3_BUCKET: ${{ secrets.COMMON_COS_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.COMMON_COS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.COMMON_COS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.COMMON_COS_REGION }}
+          AWS_S3_ENDPOINT: https://${{ secrets.COMMON_COS_ENDPOINT }}
           SOURCE_DIR: 'packages/web-components/dist'
           DEST_DIR: 'common/carbon-for-ibm-dotcom/version/${{ github.event.inputs.relase-tag }}'
-      - uses: act10ns/slack@v2
-        with:
-          status: ${{ job.status }}
-        if: failure()
