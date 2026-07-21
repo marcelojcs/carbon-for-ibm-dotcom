@@ -1,0 +1,128 @@
+/**
+ * @license
+ *
+ * Copyright IBM Corp. 2020
+ *
+ * This source code is licensed under the Apache-2.0 license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/**
+ * @license
+ * 
+ * This bundle contains the following third-party dependencies:
+ * 
+ * @carbon/web-components:
+ * 
+ * @license
+ *
+ * Copyright IBM Corp. 2019, 2022
+ *
+ * This source code is licensed under the Apache-2.0 license found in the
+ * LICENSE file in the root directory of this source tree.
+ * 
+ * @carbon/motion:
+ * 
+ * Copyright IBM Corp. 2018, 2026
+*
+* This source code is licensed under the Apache-2.0 license found in the
+* LICENSE file in the root directory of this source tree.
+ * 
+ * @carbon/layout:
+ * 
+ * Copyright IBM Corp. 2018, 2026
+*
+* This source code is licensed under the Apache-2.0 license found in the
+* LICENSE file in the root directory of this source tree.
+ * 
+ * lit-html:
+ * 
+ * @license
+ * Copyright 2022 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ * 
+ * lit-element:
+ * 
+ * @license
+ * Copyright 2017 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ * 
+ * @lit/reactive-element:
+ * 
+ * @license
+ * Copyright 2017 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ * 
+ * @carbon/themes:
+ * 
+ * Copyright IBM Corp. 2016, 2023
+*
+* This source code is licensed under the Apache-2.0 license found in the
+* LICENSE file in the root directory of this source tree.
+ * 
+ * @babel/runtime:
+ * 
+ regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE
+ * 
+ * marked:
+ * 
+ * marked v4.3.0 - a markdown parser
+ * Copyright (c) 2011-2023, Christopher Jeffrey. (MIT Licensed)
+ * https://github.com/markedjs/marked
+ * 
+ * @carbon/type:
+ * 
+ * Copyright IBM Corp. 2018, 2023
+*
+* This source code is licensed under the Apache-2.0 license found in the
+* LICENSE file in the root directory of this source tree.
+ * 
+ * @carbon/colors:
+ * 
+ * Copyright IBM Corp. 2018, 2026
+*
+* This source code is licensed under the Apache-2.0 license found in the
+* LICENSE file in the root directory of this source tree.
+ * 
+ * js-cookie:
+ * 
+ * JavaScript Cookie v2.2.1
+ * https://github.com/js-cookie/js-cookie
+ *
+ * Copyright 2006, 2015 Klaus Hartl & Fagner Brack
+ * Released under the MIT license
+ * 
+ * dompurify:
+ * 
+ @license DOMPurify 3.3.1 | (c) Cure53 and other contributors | Released under the Apache license 2.0 and Mozilla Public License 2.0 | github.com/cure53/DOMPurify/blob/3.3.1/LICENSE
+ * 
+ * Also refer to the following links for the license of other third-party dependencies:
+ * 
+ * https://www.npmjs.com/package/lit
+ * https://www.npmjs.com/package/redux
+ * https://www.npmjs.com/package/lodash-es
+ * https://www.npmjs.com/package/window-or-global
+ * https://www.npmjs.com/package/redux-thunk
+ * https://www.npmjs.com/package/redux-logger
+ * https://www.npmjs.com/package/isomorphic-dompurify
+ * https://www.npmjs.com/package/axios
+ * https://www.npmjs.com/package/striptags
+ * https://www.npmjs.com/package/color
+ * https://www.npmjs.com/package/color-string
+ * https://www.npmjs.com/package/color-convert
+ * https://www.npmjs.com/package/color-name
+ * https://www.npmjs.com/package/simple-swizzle
+ * https://www.npmjs.com/package/@floating-ui/dom
+ * https://www.npmjs.com/package/is-arrayish
+ * https://www.npmjs.com/package/@floating-ui/utils
+ * https://www.npmjs.com/package/@floating-ui/core
+ */
+
+import{b as e}from"./query-assigned-elements.js";import{s}from"./spread.js";
+/**
+ * @license
+ *
+ * Copyright IBM Corp. 2019, 2020
+ *
+ * This source code is licensed under the Apache-2.0 license found in the
+ * LICENSE file in the root directory of this source tree.
+ */const r=({children:r,...t}={})=>e`<svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="currentColor" ...="${s(t)}" aria-hidden="true" width="20" height="20" viewBox="0 0 32 32">${r}<path d="M2,16H2A14,14,0,1,0,16,2,14,14,0,0,0,2,16Zm23.15,7.75L8.25,6.85a12,12,0,0,1,16.9,16.9ZM8.24,25.16A12,12,0,0,1,6.84,8.27L23.73,25.16a12,12,0,0,1-15.49,0Z"></path></svg>`;export{r as s};
