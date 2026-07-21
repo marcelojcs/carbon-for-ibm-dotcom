@@ -1,0 +1,130 @@
+/**
+ * @license
+ *
+ * Copyright IBM Corp. 2020
+ *
+ * This source code is licensed under the Apache-2.0 license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/**
+ * @license
+ * 
+ * This bundle contains the following third-party dependencies:
+ * 
+ * @carbon/web-components:
+ * 
+ * @license
+ *
+ * Copyright IBM Corp. 2019, 2022
+ *
+ * This source code is licensed under the Apache-2.0 license found in the
+ * LICENSE file in the root directory of this source tree.
+ * 
+ * @carbon/motion:
+ * 
+ * Copyright IBM Corp. 2018, 2026
+*
+* This source code is licensed under the Apache-2.0 license found in the
+* LICENSE file in the root directory of this source tree.
+ * 
+ * @carbon/layout:
+ * 
+ * Copyright IBM Corp. 2018, 2026
+*
+* This source code is licensed under the Apache-2.0 license found in the
+* LICENSE file in the root directory of this source tree.
+ * 
+ * lit-html:
+ * 
+ * @license
+ * Copyright 2022 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ * 
+ * lit-element:
+ * 
+ * @license
+ * Copyright 2017 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ * 
+ * @carbon/themes:
+ * 
+ * Copyright IBM Corp. 2016, 2023
+*
+* This source code is licensed under the Apache-2.0 license found in the
+* LICENSE file in the root directory of this source tree.
+ * 
+ * @lit/reactive-element:
+ * 
+ * @license
+ * Copyright 2017 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ * 
+ * @babel/runtime:
+ * 
+ regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE
+ * 
+ * marked:
+ * 
+ * marked v4.3.0 - a markdown parser
+ * Copyright (c) 2011-2023, Christopher Jeffrey. (MIT Licensed)
+ * https://github.com/markedjs/marked
+ * 
+ * @carbon/type:
+ * 
+ * Copyright IBM Corp. 2018, 2023
+*
+* This source code is licensed under the Apache-2.0 license found in the
+* LICENSE file in the root directory of this source tree.
+ * 
+ * @carbon/colors:
+ * 
+ * Copyright IBM Corp. 2018, 2026
+*
+* This source code is licensed under the Apache-2.0 license found in the
+* LICENSE file in the root directory of this source tree.
+ * 
+ * js-cookie:
+ * 
+ * JavaScript Cookie v2.2.1
+ * https://github.com/js-cookie/js-cookie
+ *
+ * Copyright 2006, 2015 Klaus Hartl & Fagner Brack
+ * Released under the MIT license
+ * 
+ * dompurify:
+ * 
+ @license DOMPurify 3.3.1 | (c) Cure53 and other contributors | Released under the Apache license 2.0 and Mozilla Public License 2.0 | github.com/cure53/DOMPurify/blob/3.3.1/LICENSE
+ * 
+ * Also refer to the following links for the license of other third-party dependencies:
+ * 
+ * https://www.npmjs.com/package/lit
+ * https://www.npmjs.com/package/redux
+ * https://www.npmjs.com/package/lodash-es
+ * https://www.npmjs.com/package/window-or-global
+ * https://www.npmjs.com/package/redux-logger
+ * https://www.npmjs.com/package/redux-thunk
+ * https://www.npmjs.com/package/isomorphic-dompurify
+ * https://www.npmjs.com/package/axios
+ * https://www.npmjs.com/package/striptags
+ * https://www.npmjs.com/package/color
+ * https://www.npmjs.com/package/color-convert
+ * https://www.npmjs.com/package/color-string
+ * https://www.npmjs.com/package/color-name
+ * https://www.npmjs.com/package/simple-swizzle
+ * https://www.npmjs.com/package/@floating-ui/dom
+ * https://www.npmjs.com/package/is-arrayish
+ * https://www.npmjs.com/package/@floating-ui/utils
+ * https://www.npmjs.com/package/@floating-ui/core
+ */
+
+/**
+ * @license
+ *
+ * Copyright IBM Corp. 2019, 2023
+ *
+ * This source code is licensed under the Apache-2.0 license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+const n = 'cds',
+  e = `\n  a[href], area[href], input:not([disabled]):not([tabindex='-1']),\n  button:not([disabled]):not([tabindex='-1']),select:not([disabled]):not([tabindex='-1']),\n  textarea:not([disabled]):not([tabindex='-1']),\n  iframe, object, embed, *[tabindex]:not([tabindex='-1']), *[contenteditable=true],\n  ${n}-accordion-item,\n  ${n}-button,\n  ${n}-breadcrumb-link,\n  ${n}-checkbox,\n  ${n}-code-snippet,\n  ${n}-combo-box,\n  ${n}-content-switcher-item,\n  ${n}-copy-button,\n  ${n}-table-header-row,\n  ${n}-table-row,\n  ${n}-table-toolbar-search,\n  ${n}-date-picker-input,\n  ${n}-dropdown,\n  ${n}-input,\n  ${n}-link,\n  ${n}-number-input,\n  ${n}-modal,\n  ${n}-modal-close-button,\n  ${n}-multi-select,\n  ${n}-inline-notification,\n  ${n}-toast-notification,\n  ${n}-overflow-menu,\n  ${n}-overflow-menu-item,\n  ${n}-page-sizes-select,\n  ${n}-pages-select,\n  ${n}-progress-step,\n  ${n}-radio-button,\n  ${n}-search,\n  ${n}-slider,\n  ${n}-slider-input,\n  ${n}-structured-list,\n  ${n}-tab,\n  ${n}-filter-tag,\n  ${n}-textarea,\n  ${n}-text-input,\n  ${n}-clickable-tile,\n  ${n}-expandable-tile,\n  ${n}-radio-tile,\n  ${n}-selectable-tile,\n  ${n}-toggle,\n  ${n}-tooltip,\n  ${n}-tooltip-definition,\n  ${n}-tooltip-icon,\n  ${n}-header-menu,\n  ${n}-header-menu-button,\n  ${n}-header-menu-item,\n  ${n}-header-name,\n  ${n}-header-nav-item,\n  ${n}-side-nav-link,\n  ${n}-side-nav-menu,\n  ${n}-side-nav-menu-item\n`;
+export { n as p, e as s };
